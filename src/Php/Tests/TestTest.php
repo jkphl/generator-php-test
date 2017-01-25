@@ -37,7 +37,7 @@ class TestTest extends \PHPUnit_Framework_TestCase
 {
     public function testSquare()
     {
-        $test = new \Jkphl\Php\Domain\Test();
+        $test = new \Jkphl\Php\Domain\Testclass();
         $this->assertEquals(4, $test->square(2));
     }
 }

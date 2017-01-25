@@ -37,7 +37,7 @@
 namespace Jkphl\Php\Domain;
 
 
-class Test
+class Testclass
 {
     public function square($x)
     {
