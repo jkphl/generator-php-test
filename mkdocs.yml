@@ -1,0 +1,8 @@
+site_name: Jkphl/Php
+site_description: Test project
+site_author: Joschi Kuphal
+repo_url: git@github.com:jkphl/generator-php-test.git
+docs_dir: doc
+pages:
+- Home: 'index.md'
+- To-Do: 'todo.md'

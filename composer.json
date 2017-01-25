@@ -1,0 +1,50 @@
+{
+    "name": "Jkphl/Php",
+    "description": "Test project",
+    "homepage": "https://jkphl.is",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joschi Kuphal",
+            "email": "joschi@tollwerk.de",
+            "homepage": "https://jkphl.is",
+            "role": "Developer"
+        }
+    ],
+    "repositories": {
+        "graph-composer": {
+            "type": "git",
+            "url": "https://github.com/jkphl/graph-composer"
+        }
+    },
+    "require": {
+        "php": ">=5.6.26"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jkphl\\": "src/"
+        }
+    },
+    "scripts": {
+        "phploc": "vendor/bin/phploc --count-tests --progress --log-xml build/phploc.xml src",
+        "phpmd": "vendor/bin/phpmd src xml phpmd.xml --reportfile build/phpmd.xml",
+        "phpunit": "vendor/bin/phpunit --configuration phpunit.xml.dist",
+        "phpdox": "vendor/bin/phpdox",
+        "build": [
+            "@phploc",
+            "@phpmd",
+            "@phpunit",
+            "@phpdox"
+        ]
+    },
+    "require-dev": {
+        "clue/graph-composer": "dev-master",
+        "phpunit/phpunit": "^5.7",
+        "codeclimate/php-test-reporter": "^0.4.2",
+        "satooshi/php-coveralls": "^1.0",
+        "theseer/phpdox": "dev-master",
+        "phploc/phploc": "^3.0",
+        "phpmd/phpmd": "^2.6"
+    }
+}

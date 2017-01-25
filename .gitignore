@@ -1,0 +1,7 @@
+/.idea
+/build
+/doc
+/vendor
+.env
+/apidocs
+/build

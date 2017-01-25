@@ -1,0 +1,23 @@
+{
+  "generator-php": {
+    "run": 0,
+    "vendor": "Jkphl",
+    "project": "Php",
+    "description": "Test project",
+    "website": "https://jkphl.is",
+    "license": "MIT",
+    "stability": "stable",
+    "namespace": "Jkphl",
+    "module": "Php",
+    "php": ">=5.6.26",
+    "authorName": "Joschi Kuphal",
+    "authorEmail": "joschi@tollwerk.de",
+    "authorWebsite": "https://jkphl.is",
+    "git": "git@github.com:jkphl/generator-php-test.git",
+    "codeclimate": "",
+    "scrutinizer": true,
+    "coverage": true,
+    "readthedocs": true,
+    "apidocs": true
+  }
+}
