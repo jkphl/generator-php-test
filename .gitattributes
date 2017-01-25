@@ -14,4 +14,3 @@
 /phpmd.xml export-ignore
 /.scrutinizer.yml export-ignore
 /mkdocs.yml export-ignore
-/phpdocs.xml.dist export-ignore

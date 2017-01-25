@@ -1,6 +1,6 @@
 {
   "generator-php": {
-    "run": 0,
+    "run": 127,
     "vendor": "Jkphl",
     "project": "Php",
     "description": "Test project",
@@ -14,10 +14,11 @@
     "authorEmail": "joschi@tollwerk.de",
     "authorWebsite": "https://jkphl.is",
     "git": "git@github.com:jkphl/generator-php-test.git",
-    "codeclimate": "",
+    "codeclimate": "e178cc7e5856be9886d1e8414895cab0a07f73c04754b9f62e4cecba6ce011d4",
     "scrutinizer": true,
     "coverage": true,
     "readthedocs": true,
-    "apidocs": true
+    "apidocs": true,
+    "docs": true
   }
 }
