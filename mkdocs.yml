@@ -1,7 +1,7 @@
 site_name: Jkphl/Php
 site_description: Test project
 site_author: Joschi Kuphal
-repo_url: git@github.com:jkphl/generator-php-test.git
+repo_url: https://github.com/jkphl/generator-php-test
 docs_dir: doc
 pages:
 - Home: 'index.md'
